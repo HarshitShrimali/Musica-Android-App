@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_Cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+
+
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_Cat"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/Guitar"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/guitar"
+            />
+
+        <ImageView
+            android:id="@+id/Piano"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/piano"
+            />
+
+        <ImageView
+            android:id="@+id/Sahanai"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sahani"
+            />
+
+        <ImageView
+            android:id="@+id/Flute"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/fluit"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/Harmonium"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/harmonium"
+            />
+
+        <ImageView
+            android:id="@+id/Santur"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/santur"
+            />
+
+        <ImageView
+            android:id="@+id/Vena"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/vena"
+            />
+
+        <ImageView
+            android:id="@+id/Tabla"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/tabla"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/Drum"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/drum"
+            />
+
+        <ImageView
+            android:id="@+id/Saxophone"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/saxophone"
+            />
+
+        <ImageView
+            android:id="@+id/Brit"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/britanica"
+            />
+
+        <ImageView
+            android:id="@+id/Rock"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rockdrum"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/maintain_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_above="@+id/check_orders_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Maintain Products"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_above="@+id/admin_logout_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Check New Orders"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+
+
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimary"
+        android:text="Logout"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+
+
+
+</RelativeLayout>
